@@ -8,6 +8,7 @@ My News App with RiverPod State Management: Check out this sleek, responsive new
 - RiverPod State Management
 - Flutter GoRouter
 - Freezed
+- NewsApi
 
 # Screenshot
 
@@ -27,6 +28,7 @@ Run in terminal this command:
 
 ```bash
 flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
 Then run this command to start your local server
